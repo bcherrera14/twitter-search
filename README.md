@@ -2,7 +2,7 @@
 
 *A full stack application that manipulates and displays curated tweets from twitter.*
 
-Try it [here](https://twittersifter.azurewebsites.net/)
+Try it [here](https://twittersifterapi.azurewebsites.net/)
 
 <img src="./sifter_v1.gif" alt="alt text" width="700px">
 
