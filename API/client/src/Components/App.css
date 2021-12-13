@@ -1,0 +1,148 @@
+html,
+body {
+	background: #edf2f7;
+	font-family: 'Roboto';
+}
+
+.main-wrapper {
+	margin-top: 96px;
+}
+
+nav {
+	height: 96px;
+	font-size: 1.3rem;
+	box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+}
+
+.nav-link {
+	margin: 0 10px;
+}
+
+.landing-page {
+	background-image: url("./images/Sifter-Landing.png");
+	width: 1500px;
+	height: 80vh;
+	margin-top: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.logo-image {
+	height: 30px;
+}
+
+div > .jumbotron {
+	min-height: 300px;
+	margin-top: 96px;
+	background-color: #183153;
+	color: whitesmoke;
+	border-radius: 0;
+}
+
+.jumbotron > div > p {
+	font-size: 1.3rem;
+}
+
+div > .search-card {
+	width: 40rem;
+	margin: 0;
+}
+
+.search {
+	width: 325px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 15px 0px;
+	border-radius: 1rem;
+}
+
+.card-img {
+	width: 48px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-img {
+	width: 220px;
+	border: 7px solid whitesmoke;
+	margin: 10px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 0 !important;
+}
+
+button {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-grid {
+	margin-top: 1rem;
+}
+
+.search {
+	position: relative;
+}
+
+.search i {
+	position: absolute;
+	display: block;
+	top: 12px;
+	padding-left: 13px;
+	width: 45px;
+}
+
+#at-icon {
+	display: none;
+}
+
+#search-input {
+	padding-left: 40px;
+}
+
+.card-grid {
+	height: 100%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.modal-dialog {
+	display: flex;
+	justify-content: center;
+}
+
+.modal-content {
+	width: auto;
+	border-radius: 1rem;
+}
+
+.modal-body {
+	padding: 0;
+}
+
+.modal-body > .card {
+	margin: 0;
+	box-shadow: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.hide {
+	display: none;
+}
+
+.card-text {
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+
+.media-image {
+	width: 35rem;
+	border-radius: 1.5rem;
+}
+
+.tweet-stats {
+	margin-top: 16px;
+}
