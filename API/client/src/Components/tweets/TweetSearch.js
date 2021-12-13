@@ -19,9 +19,10 @@ class TweetSearch extends React.Component {
 	}
 
 	getAuthToken() {
+		// .get('https://sifterapp.azurewebsites.net/api/tweets/token')
+		//.get('http://localhost:5000/api/tweets/token')
 		axios
-			// .get('https://sifterapp.azurewebsites.net/api/tweets/token')
-			.get('http://localhost:5000/api/tweets/token')
+			.get('https://twittersifter.azurewebsites.net//api/tweets/token')
 			.then((response) => {
 				this.setState({
 					token_type: response.data.token_type,
@@ -62,9 +63,10 @@ class TweetSearch extends React.Component {
 					token: this.state.access_token
 				}
 			};
+			// .get('https://sifterapp.azurewebsites.net/api/tweets/search', config)
+			//.get('http://localhost:5000/api/tweets/search', config)
 			axios
-				// .get('https://sifterapp.azurewebsites.net/api/tweets/search', config)
-				.get('http://localhost:5000/api/tweets/search', config)
+				.get('https://twittersifter.azurewebsites.net/api/tweets/search', config)
 				.then((response) => {
 					this.setState({
 						statuses: response.data.statuses,

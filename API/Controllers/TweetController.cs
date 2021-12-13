@@ -38,7 +38,6 @@ namespace API.Controllers
         [HttpGet("api/tweets/search")]
         public async Task<TwitterResponse> Tweet(string type, string token, string searchTerm, string result_type)
         {
-            //comment
             var newToken =  Uri.EscapeDataString(token);
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(type, token);
             HttpResponseMessage response = await client.GetAsync($"https://api.twitter.com/1.1/search/tweets.json?q={searchTerm}&result_type={result_type}&lang=en&tweet_mode=extended");
