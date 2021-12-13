@@ -1,15 +1,67 @@
 {
   "version": 2,
-  "dgSpecHash": "+w9HWEnsq/tCMuo4rzWR7kiQhIUB6oqGL2QZ0g8sF6SfHPl2A1MKy0IGdwISK0MoVK+vF2HG9QdPHknJ7ZQTGw==",
+  "dgSpecHash": "D54Fs9xFuyqVQXyD8eyU/CvZU3PpFJt5n3+uDek6pPwxnRkwANrGT+I6AeXEUJ9EEchkFA3P2YHT5AEjs1DeMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bryan Herrera\\Desktop\\Bryans_Code\\React\\twitter-search\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\5.0.2\\microsoft.aspnetcore.spaservices.extensions.5.0.2.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Bryan Herrera\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "C:\\Users\\Bryan Herrera\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\Bryan Herrera\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Bryan Herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\Bryan Herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.diagnostics.tools\\4.0.1\\system.diagnostics.tools.4.0.1.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.dynamic.runtime\\4.0.11\\system.dynamic.runtime.4.0.11.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.globalization\\4.0.11\\system.globalization.4.0.11.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.io\\4.1.0\\system.io.4.1.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.linq\\4.1.0\\system.linq.4.1.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.linq.expressions\\4.1.0\\system.linq.expressions.4.1.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.objectmodel\\4.0.12\\system.objectmodel.4.0.12.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.reflection\\4.1.0\\system.reflection.4.1.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.reflection.emit\\4.0.1\\system.reflection.emit.4.0.1.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.0.1\\system.reflection.emit.ilgeneration.4.0.1.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.reflection.emit.lightweight\\4.0.1\\system.reflection.emit.lightweight.4.0.1.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.reflection.extensions\\4.0.1\\system.reflection.extensions.4.0.1.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.reflection.primitives\\4.0.1\\system.reflection.primitives.4.0.1.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.reflection.typeextensions\\4.1.0\\system.reflection.typeextensions.4.1.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.resources.resourcemanager\\4.0.1\\system.resources.resourcemanager.4.0.1.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.runtime\\4.1.0\\system.runtime.4.1.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.runtime.extensions\\4.1.0\\system.runtime.extensions.4.1.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.runtime.handles\\4.0.1\\system.runtime.handles.4.0.1.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.runtime.interopservices\\4.1.0\\system.runtime.interopservices.4.1.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.runtime.serialization.primitives\\4.1.1\\system.runtime.serialization.primitives.4.1.1.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.text.encoding\\4.0.11\\system.text.encoding.4.0.11.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.text.encoding.extensions\\4.0.11\\system.text.encoding.extensions.4.0.11.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.text.regularexpressions\\4.1.0\\system.text.regularexpressions.4.1.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.threading\\4.0.11\\system.threading.4.0.11.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.threading.tasks.extensions\\4.0.0\\system.threading.tasks.extensions.4.0.0.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
+    "C:\\Users\\Bryan Herrera\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "API depends on Newtonsoft.Json (>= 5.0.2) but Newtonsoft.Json 5.0.2 was not found. An approximate best match of Newtonsoft.Json 9.0.1 was resolved.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
