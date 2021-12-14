@@ -25,7 +25,7 @@ class TweetProfile extends React.Component {
 		// .get('https://sifterapp.azurewebsites.net/api/tweets/token')
 		//.get('http://localhost:5000/api/tweets/token')
 		axios
-			.get('https://twittersifter.azurewebsites.net/api/tweets/token')
+			.get('https://twittersifterapi.azurewebsites.net/api/tweets/token')
 			.then((response) => {
 				console.log(response);
 				this.setState({
@@ -56,7 +56,7 @@ class TweetProfile extends React.Component {
 		// .get('https://sifterapp.azurewebsites.net/api/tweets/users', config)
 		//.get('http://localhost:5000/api/tweets/users', config)
 		axios
-			.get('https://twittersifter.azurewebsites.net/api/tweets/users', config)
+			.get('https://twittersifterapi.azurewebsites.net/api/tweets/users', config)
 			.then((response) => {
 				const userData = response.data;
 				this.setState({
@@ -84,7 +84,7 @@ class TweetProfile extends React.Component {
 		// .get('https://sifterapp.azurewebsites.net/api/tweets/search', config)
 		//.get('http://localhost:5000/api/tweets/search', config)
 		axios
-			.get('https://twittersifter.azurewebsites.net/api/tweets/search', config)
+			.get('https://twittersifterapi.azurewebsites.net/api/tweets/search', config)
 			.then((response) => {
 				this.setState({
 					tweets: response.data.statuses
