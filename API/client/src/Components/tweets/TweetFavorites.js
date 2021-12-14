@@ -37,36 +37,36 @@ class TweetFavorites extends React.Component {
 						<p>View tweets from these popular profiles.</p>
 					</Container>
 				</div>
-				<div className="profile-grid d-flex flex-column align-items-center">
-					<div className="d-flex justify-content-around ">
-						<TweetProfile
-							username="therock"
-							getRandomTweet={this.getRandomTweet}
-							modalShow={() => this.setModalShow(true)}
-						/>
-						<TweetProfile
-							username="elonmusk"
-							getRandomTweet={this.getRandomTweet}
-							modalShow={() => this.setModalShow(true)}
-						/>
-						<TweetProfile
-							username="billgates"
-							getRandomTweet={this.getRandomTweet}
-							modalShow={() => this.setModalShow(true)}
-						/>
-					</div>
-					<div className="d-flex justify-content-around">
-						<TweetProfile
-							username="verge"
-							getRandomTweet={this.getRandomTweet}
-							modalShow={() => this.setModalShow(true)}
-						/>
-						<TweetProfile
-							username="engadget"
-							getRandomTweet={this.getRandomTweet}
-							modalShow={() => this.setModalShow(true)}
-						/>
-					</div>
+				<div className="profile-grid d-flex flex-wrap justify-content-around  align-items-center">
+					{/* <div className="d-flex justify-content-around "> */}
+					<TweetProfile
+						username="therock"
+						getRandomTweet={this.getRandomTweet}
+						modalShow={() => this.setModalShow(true)}
+					/>
+					<TweetProfile
+						username="elonmusk"
+						getRandomTweet={this.getRandomTweet}
+						modalShow={() => this.setModalShow(true)}
+					/>
+					<TweetProfile
+						username="billgates"
+						getRandomTweet={this.getRandomTweet}
+						modalShow={() => this.setModalShow(true)}
+					/>
+					{/* </div> */}
+					{/* <div className="d-flex justify-content-around"> */}
+					<TweetProfile
+						username="verge"
+						getRandomTweet={this.getRandomTweet}
+						modalShow={() => this.setModalShow(true)}
+					/>
+					<TweetProfile
+						username="engadget"
+						getRandomTweet={this.getRandomTweet}
+						modalShow={() => this.setModalShow(true)}
+					/>
+					{/* </div> */}
 					<TweetModal
 						tweet={this.state.randomTweet}
 						show={this.state.modalShow}

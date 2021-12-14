@@ -105,8 +105,6 @@ class TweetProfile extends React.Component {
 			this.getUserData();
 			this.getTweets();
 		}
-		
-
 	}
 
 	render() {
